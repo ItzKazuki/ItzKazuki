@@ -4,7 +4,7 @@
 Phpmyadmin adalah program yang bisa mengontrol database mysql kamu, mysql sangat berguna jika kita __malas__ untuk menggunakan CLI dari mysql/mariadb. Bagaimana sih cara installnya?
 
 ## Pemasangan
-pertama download [phpmyadmin](https://phpmyadmin.net) di browser. jika kamu di Linux/Ubuntu gunakan:
+pertama download [phpmyadmin](https://phpmyadmin.net) dari browser. jika kamu di Linux/Ubuntu gunakan:
 ```
 $ wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.zip
 ```

@@ -10,16 +10,18 @@ Hallo, nama saya kazuki. Saya merupakan remaja berumur under 17 tahun yang baru 
 * Python (masih rada rada ga paham sam sintaks nya)
 * Java (mirip php oop nya)
 
-###
+### Carrer
 
 Saya suka sekali berorganisasi, Saya pernah jadi anggota osis, rasanya seru sekali. dan sepertinya berorganisasi juga bakal di pake di dunia percodingan (soalnya kalo mau marge harus kerja sama biar code nya ga conflic hehe :)
 
-oh iya saya juga merupakan pengembang web [ArlCraft](https://arlcraft.net) dan juga sebagai staff dari server minecraft tersebut(staff dari tahun 2020-2023).
+Saya juga merupakan pengembang web [ArlCraft](https://arlcraft.net) dan sebagai staff dari server minecraft tersebut(staff dari tahun 2020-2023).
 
 * link repo [ArlCraft](https://github.com/itzkazuki/Arlcraft)
 
+Selain staff dari [ArlCraft](https://arlcraft.net) saya juga merupakan CEO dari [FikqStore](https://fikq-store.xyz), sebuah store kecil yang saya kembangkan karena saya menukai dunia percodingan.
 
-### my list to-do
+
+### To-do
 
 ```
 - mengerjakan project website Management Sekolah
@@ -38,7 +40,7 @@ oh iya saya juga merupakan pengembang web [ArlCraft](https://arlcraft.net) dan j
 * customer-service@fikq-store.xyz
 
 
-# Thanks For~
+# Thanks For
 * [FikqHosting](https://fikq-store.xyz) yang sudah support dari awal.
 * [ArlCraft](https://arlcraft.net) yang sudah support untuk lanjut coding.
 * myself! karna udh bertahan sampe sekarang!
