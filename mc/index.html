@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>mcuuid</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Simple elegant web app to grab Minecraft UUIDs from their username or get their name from their UUID."/>
+        <meta name="keywords" content="Minecraft, Mojang, ewized, UUID, Fetcher"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style.css?v=3" />
+        <link rel="shortcut icon" href="favicon.ico?v=1"/>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
+    </head>
+
+    <body>
+        <div id="content">
+            <div class="text-center" id="logo">
+                <a href="https://kazukikun.xyz" target="_blank" title="Hello!">
+                </a>
+                <br />
+                <br />
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form id="search-bar" action="#">
+                        <div class="input-group">
+                            <input id="data" required type="text" class="form-control" placeholder="Enter a Minecraft username or UUID...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><span class="fa">&#xf002;</span></button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bg-info" id="results">
+                    <div id="result-loading" class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:100%"></div>
+                    </div>
+                    <div id="result-container">
+                        <img id="result-img" height="32" width="32" />
+                        <span id="result-name"></span>
+                        <input id="result-uuid" class="text-center form-control" readonly size="35" type="text" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="bg"></div>
+            <div id="bg-overlay"></div>
+        </div>
+
+
+        <footer id="footer" class="text-center fa">
+            <div id="footer-cell">
+                <a href="https://github.com/itzkazuki" target="_blank">
+                    <span data-toggle="tooltip" data-placement="top" data-original-title="GitHub">
+                        &#xf09b;
+                    </span>
+                </a>
+                <a href="https://kazukikun.xyz" target="_blank">
+                    <span data-toggle="tooltip" data-placement="top" data-original-title="kazukikun.xyz">
+                        &#xf0c1;
+                    </span>
+                </a>
+            </div>
+        </footer>
+
+        <!-- Load JavaScript after page loads faster -->
+        <script type="text/javascript" src="script.js?v=2"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">$('[data-toggle="tooltip"]').tooltip();</script>
+    </body>
+</html>
