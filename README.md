@@ -26,7 +26,6 @@ Selain staff dari [ArlCraft](https://arlcraft.net) saya juga merupakan CEO dari 
 - mengerjakan project website Management Sekolah
 - memperbaiki bug di project ControlPanel
 - mempelajari java, php, js, dan python lebih dalam lagi
-- masuk smkn 71!
 ```
 
 # Status Github
