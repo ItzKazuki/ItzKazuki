@@ -31,7 +31,7 @@ Selain staff dari [ArlCraft](https://arlcraft.net) saya juga merupakan CEO dari 
 # Status Github
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ItzKazuki&include_all_commits=true&show_icons=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ItzKazuki&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itzkazuki&layout=compact)
 
 # Contact
 * contact@kazukikunn.xyz
