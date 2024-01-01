@@ -15,10 +15,7 @@ Saya suka sekali berorganisasi, Saya pernah jadi anggota osis, rasanya seru seka
 
 Saya juga merupakan pengembang web [ArlCraft](https://arlcraft.net) dan sebagai staff dari server minecraft tersebut(staff dari tahun 2020-2023).
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=itzkazuki&repo=Arlcraft&theme=dracula)](https://github.com/itzkazuki/Arlcraft)
-
-Selain staff dari [ArlCraft](https://arlcraft.net) saya juga merupakan CEO dari [FikqStore](https://fikq-store.xyz), sebuah store kecil yang saya kembangkan karena saya menyukai dunia percodingan.
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=itzkazuki&repo=Arlcraft&theme=dracula)](https://github.com/itzkazuki/Arlcraft
 
 ### To-do
 
