@@ -19,9 +19,14 @@ import {
   faSkull,
   faUserGraduate,
   faUserInjured,
+  faUserSecret,
+  faUserShield,
 } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Bullying() {
+  const whatIsBullying = 'Bullying atau perundungan merupakan tindakan mengganggu, mengusik, atau menyakiti orang lain secara fisik atau psikis. Tindakan ini bisa dalam bentuk bentuk kekerasan verbal, sosial, atau fisik yang dilakukan secara berulang kali dan dari waktu ke waktu. Secara etimologi, asal usul kata bullying berarti penggertak, yaitu seseorang yang suka mengganggu yang lemah.'
   return (
     <div>
       <div id="data-bullying">
@@ -44,10 +49,7 @@ export default function Bullying() {
           Apa itu Bullying?
         </h1>
         <p className="px-4 text-justify md:px-6">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
-          tenetur, consequatur, quam sequi officia blanditiis voluptatibus
-          doloribus temporibus culpa voluptates voluptate porro totam, ad
-          architecto inventore odit sit expedita illum.
+          {whatIsBullying}
         </p>
       </div>
       <div id="dampak-korban-bullying">
@@ -63,13 +65,13 @@ export default function Bullying() {
               Depresi, Bipolar, dan ganggunan kejiawaan lainnnya
             </p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faPersonCircleExclamation} />
             </h2>
             <p className="">Sulit berinteraksi dengan orang baru</p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faUserInjured} />
             </h2>
@@ -79,7 +81,7 @@ export default function Bullying() {
             <h2 className="card-title">
               <FontAwesomeIcon icon={faSkull} />
             </h2>
-            <p className="">Bunuh diri akibat tekanan yang datang</p>
+            <p className="">Bunuh diri akibat tekanan dari pembully</p>
           </ButtonMini>
         </div>
       </div>
@@ -87,20 +89,20 @@ export default function Bullying() {
         <h1 className="text-4xl font-bold text-center py-8">
           Penyebab Perundungan
         </h1>
-        <div className="grid grid-cols-2 gap-2 pl-3">
+        <div className="grid grid-cols-2 gap-2">
           <ButtonMini className={"bg-red-600"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faPersonHarassing} />
             </h2>
             <p className="">Mengalami kdrt (broken home)</p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faUserGraduate} />
             </h2>
             <p className="">Iri terhadap prestasi seseorang</p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faPersonPraying} />
             </h2>
@@ -118,7 +120,7 @@ export default function Bullying() {
         <h1 className="text-4xl font-bold text-center py-8">
           Jenis - jenis Perundungan
         </h1>
-        <img src={jenisPerundungan} alt="" />
+        <img src={jenisPerundungan} alt="" className="block ml-auto mr-auto" />
       </div>
       <div id="penanganan-bullying">
         <h1 className="text-4xl font-bold text-center pt-8 pb-4">
@@ -127,20 +129,20 @@ export default function Bullying() {
         <p className="text-center pb-3">
           beberapa cara penanganan bullying antara lain:
         </p>
-        <div className="grid grid-cols-2 gap-2 pl-3">
+        <div className="grid grid-cols-2 gap-2 pl-3 ">
           <ButtonMini className={"bg-green-600"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faPhoneAlt} />
             </h2>
             <p className="">Hubungi orang terdekat kalian</p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faPeopleRoof} />
             </h2>
             <p className="">Cari tempat yang aman dan jauh dari pelaku</p>
           </ButtonMini>
-          <ButtonMini className={"bg-yellow-600"}>
+          <ButtonMini className={"bg-yellow-500"}>
             <h2 className="card-title">
               <FontAwesomeIcon icon={faFaceSmile} />
             </h2>
@@ -152,6 +154,18 @@ export default function Bullying() {
             </h2>
             <p className="">Jaga jarak dari pelaku dan teman dekatnya</p>
           </ButtonMini>
+          <ButtonMini className={"bg-green-600"}>
+            <h2 className="card-title">
+              <FontAwesomeIcon icon={faPersonPraying} />
+            </h2>
+            <p className="">Beribadah dan mendekatkan diri kepada tuhan</p>
+          </ButtonMini>
+          <ButtonMini className={"bg-green-600"}>
+            <h2 className="card-title">
+              <FontAwesomeIcon icon={faUserShield} />
+            </h2>
+            <p className="">Hindari media sosial beberapa hari</p>
+          </ButtonMini>
         </div>
       </div>
     </div>
@@ -160,7 +174,7 @@ export default function Bullying() {
 
 function ButtonMini({ children, className }) {
   return (
-    <div className={`card w-[135px] text-neutral-content ${className}`}>
+    <div className={`card w-38 text-neutral-content ${className}`}>
       <div className="card-body items-center text-center">{children}</div>
     </div>
   );
