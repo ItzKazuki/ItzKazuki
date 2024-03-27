@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import { ErrorPage, Home } from "./pages";
+import { ErrorPage, Home, InfoProject, MyProject } from "./pages";
 import { Bullying } from "./pages/project";
-import { useEffect } from "react";
+import Layout from './components/Layout'
 
 export default function App() {
   return (
@@ -14,7 +14,17 @@ export default function App() {
           </Layout>
         }
       />
+      <Route path="/about" element={
+        <Layout>
+          <InfoProject />
+        </Layout>
+      } />
       <Route path="/projects">
+        <Route index element={
+          <Layout>
+            <MyProject />
+          </Layout>
+        } />
         <Route
           path="bullying"
           element={
@@ -27,8 +37,4 @@ export default function App() {
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
-}
-
-function Layout({ children }) {
-  return <div className="my-8 mx-8 min-h-screen">{children}</div>;
 }

@@ -28,7 +28,7 @@ import { useNavigate } from "react-router-dom";
 export default function Bullying() {
   const whatIsBullying = 'Bullying atau perundungan merupakan tindakan mengganggu, mengusik, atau menyakiti orang lain secara fisik atau psikis. Tindakan ini bisa dalam bentuk bentuk kekerasan verbal, sosial, atau fisik yang dilakukan secara berulang kali dan dari waktu ke waktu. Secara etimologi, asal usul kata bullying berarti penggertak, yaitu seseorang yang suka mengganggu yang lemah.'
   return (
-    <div>
+    <div className="mb-20">
       <div id="data-bullying">
         <img
           className="items-center"
