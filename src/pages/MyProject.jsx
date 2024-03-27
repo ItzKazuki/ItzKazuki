@@ -1,6 +1,6 @@
 import { project } from "../assets/data";
-import Card from "../components/Card";
-import { Each } from "../components/Each";
+import { Card, Each } from "../components";
+
 
 export default function MyProject() {
     console.log(project)
