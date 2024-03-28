@@ -95,7 +95,7 @@ export default function CheckAndroidOrDesktop() {
         return () => window.removeEventListener('resize', handleWindowChange);
     }, []);
 
-    if(width >= 640) return <ErrorMessage />
+    if(width >= 640) return <ErrorMessage /> // check if width > 640px
 
     return <Outlet />
 }

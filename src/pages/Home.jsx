@@ -36,9 +36,9 @@ export default function Home() {
           <p className="text-justify px-3 pt-2 text-lg">
             Saat ini aku masih memperdalam beberapa bahasa yang tren saat ini,
             seperti{" "}
-            <Link className="text-yellow-500 font-semibold">Javascript</Link>,{" "}
-            <Link className="text-purple-600 font-semibold">Php</Link>, dan juga{" "}
-            <Link className="text-blue-500 font-semibold">C++</Link>, aku
+            <Link to={"https://id.wikipedia.org/wiki/JavaScript"} className="text-yellow-500 font-semibold">Javascript</Link>,{" "}
+            <Link to={"https://id.wikipedia.org/wiki/PHP"} className="text-purple-600 font-semibold">Php</Link>, dan juga{" "}
+            <Link to={"https://id.wikipedia.org/wiki/C++"} className="text-blue-500 font-semibold">C++</Link>, aku
             mempelajari beberapa framework / library seperti laravel,
             express.js, react.js, tailwind, daisyui.
           </p>
@@ -64,7 +64,7 @@ export default function Home() {
       <div id="my-music" className="mt-5">
         <h1 className="text-2xl font-bold mb-4">My Music</h1>
         <ImgCenter
-          className={"mb-4"}
+          className={"w-screen mb-4"}
           imgSrc={
             "https://spotify-github-profile.vercel.app/api/view.svg?uid=31lrsntg6vcn73kuvwibeaatyzoa&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
           }
@@ -77,12 +77,7 @@ export default function Home() {
       </div>
       <div id="contact-me" className="mt-5">
         <h1 className="text-2xl font-bold">Contact Me</h1>
-        <div className="grid grid-cols-4 gap-2 mt-3">
-          <CardMIni className={"bg-blue-500"} to={"mailto:contact@kazukikun.space"}>
-            <h1 className="card-title">
-              <FontAwesomeIcon className="text-3xl" icon={faEnvelope} />
-            </h1>
-          </CardMIni>
+        <div className="grid grid-cols-3 gap-2 mt-3">
           <CardMIni className={"bg-black"} to={"https://github.com/ItzKazuki"}>
             <h1 className="card-title">
               <FontAwesomeIcon className="text-3xl" icon={faGithub} />

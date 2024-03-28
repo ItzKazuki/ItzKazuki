@@ -70,7 +70,7 @@ export default function InfoProject() {
             <h1 className="text-xl font-bold text-center">
               This Project Using
             </h1>
-            <div className="grid grid-cols-4 mt-3 gap-4">
+            <div className="grid grid-cols-3 mt-3 gap-4">
               <div className="tooltip" data-tip="v18.2.64">
                 <img src={reactIcon} alt="" width={"75px"} />
               </div>
@@ -82,11 +82,11 @@ export default function InfoProject() {
                   src={fontAwsomeIcon}
                   alt=""
                   className="ml-2"
-                  width={"50px"}
+                  width={"55px"}
                 />
               </div>
               <div className="tooltip" data-tip="v5.2.6">
-                <img src={viteIcon} alt="" width={"50px"} />
+                <img src={viteIcon} alt="" className="mt-4" width={"55px"} />
               </div>
               <div className="tooltip" data-tip="v3.4.1">
                 <img src={tailwindIcon} alt="" className="my-5" width={"80px"} />
