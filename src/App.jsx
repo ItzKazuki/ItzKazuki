@@ -1,7 +1,7 @@
+import { Layout } from "./components";
+import { Bullying } from "./pages/project";
 import { Route, Routes } from "react-router-dom";
 import { ErrorPage, Home, InfoProject, MyProject } from "./pages";
-import { Bullying } from "./pages/project";
-import { Layout } from "./components";
 import CheckAndroidOrDesktop from "./middleware/CheckAndroidOrDesktop";
 
 export default function App() {
