@@ -89,7 +89,12 @@ export default function InfoProject() {
                 <img src={viteIcon} alt="" className="mt-4" width={"55px"} />
               </div>
               <div className="tooltip" data-tip="v3.4.1">
-                <img src={tailwindIcon} alt="" className="my-5" width={"80px"} />
+                <img
+                  src={tailwindIcon}
+                  alt=""
+                  className="my-5"
+                  width={"80px"}
+                />
               </div>
               <div className="tooltip" data-tip="v4.8.0">
                 <img src={daisyuiIcon} alt="" width={"75px"} />

@@ -36,10 +36,24 @@ export default function Home() {
           <p className="text-justify px-3 pt-2 text-lg">
             Saat ini aku masih memperdalam beberapa bahasa yang tren saat ini,
             seperti{" "}
-            <Link to={"https://id.wikipedia.org/wiki/JavaScript"} className="text-yellow-500 font-semibold">Javascript</Link>,{" "}
-            <Link to={"https://id.wikipedia.org/wiki/PHP"} className="text-purple-600 font-semibold">Php</Link>, dan juga{" "}
-            <Link to={"https://id.wikipedia.org/wiki/C++"} className="text-blue-500 font-semibold">C++</Link>, aku
-            mempelajari beberapa framework / library seperti laravel,
+            <Link
+              to={"https://id.wikipedia.org/wiki/JavaScript"}
+              className="text-yellow-500 font-semibold">
+              Javascript
+            </Link>
+            ,{" "}
+            <Link
+              to={"https://id.wikipedia.org/wiki/PHP"}
+              className="text-purple-600 font-semibold">
+              Php
+            </Link>
+            , dan juga{" "}
+            <Link
+              to={"https://id.wikipedia.org/wiki/C++"}
+              className="text-blue-500 font-semibold">
+              C++
+            </Link>
+            , aku mempelajari beberapa framework / library seperti laravel,
             express.js, react.js, tailwind, daisyui.
           </p>
         </div>
@@ -88,7 +102,9 @@ export default function Home() {
               <FontAwesomeIcon className="text-3xl" icon={faDiscord} />
             </h1>
           </CardMIni>
-          <CardMIni className={"bg-blue-500"} to={"https://www.linkedin.com/in/chaeza-ibnu-akbar/"}>
+          <CardMIni
+            className={"bg-blue-500"}
+            to={"https://www.linkedin.com/in/chaeza-ibnu-akbar/"}>
             <h1 className="card-title">
               <FontAwesomeIcon className="text-3xl" icon={faLinkedin} />
             </h1>
@@ -103,7 +119,7 @@ function CardMIni({ children, className, to }) {
   return (
     <Link to={to}>
       <Card isCenter={true} className={`text-white ${className}`}>
-        { children }
+        {children}
       </Card>
     </Link>
   );

@@ -8,6 +8,7 @@ export default function MyProject() {
       if (item.type_project == "Github") return faGithub;
     }
   };
+  
   return (
     <div id="list-projects">
       <h1 className="text-2xl font-bold">My Projects</h1>

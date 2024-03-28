@@ -1,5 +1,3 @@
-import project from './project.json'
+import project from "./project.json";
 
-export {
-    project
-}
+export { project };

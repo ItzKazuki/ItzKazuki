@@ -1,5 +1,3 @@
-import Bullying from "./Bullying"
+import Bullying from "./Bullying";
 
-export {
-    Bullying
-}
+export { Bullying };
