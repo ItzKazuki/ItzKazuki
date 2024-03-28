@@ -229,7 +229,7 @@ export default function Bullying() {
 
 function ButtonMini({ children, className }) {
   return (
-    <div className={`card w-38 text-white ${className}`}>
+    <div className={`card text-white ${className}`}>
       <div className="card-body items-center text-center">{children}</div>
     </div>
   );

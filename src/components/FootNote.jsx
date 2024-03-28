@@ -5,7 +5,7 @@ export default function FootNote({children, to}) {
         <sup>
         <Link
           to={to}>
-          [<span className="text-blue-400 italic">{children}</span>]
+          [<span className="text-blue-400 italic hover:text-blue-700">{children}</span>]
         </Link>
       </sup>
     );

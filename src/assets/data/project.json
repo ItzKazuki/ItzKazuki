@@ -1,7 +1,21 @@
 [
-        {
-            "name": "Anti Bullying Information",
-            "description": "Edukasi mengenai bullying mulai dari dampak, akibat dan juga cara penanganan bagi korban bullying",
-            "url": "/projects/bullying"
-        }
-    ]
+  {
+    "name": "Anti Bullying Information",
+    "description": "Edukasi mengenai bullying mulai dari dampak, akibat dan juga cara penanganan bagi korban bullying",
+    "type_project": "Web",
+    "url": "/projects/bullying"
+  },
+  {
+    "name": "XENTWO Landing Page",
+    "description": "Web kelas X RPL 2",
+    "type_project": "Web",
+    "url": "https://exentwo.kazukikun.space"
+  },
+  {
+    "name": "Arl Craft",
+    "description": "A web for landing page arlcaft server",
+    "deprecated": true,
+    "type_project": "Github",
+    "url": "https://github.com?ItzKazuki/ArlCraft"
+  }
+]
