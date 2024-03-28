@@ -23,7 +23,7 @@ import {
   faUserInjured,
   faUserShield,
 } from "@fortawesome/free-solid-svg-icons";
-import { FootNote, ImgCenter } from "../../components";
+import { Card, FootNote, ImgCenter } from "../../components";
 
 function PenangananBullying() {
   return (
@@ -35,42 +35,42 @@ function PenangananBullying() {
         beberapa cara penanganan bullying antara lain:
       </p>
       <div className="grid grid-cols-2 gap-2 pl-3 ">
-        <ButtonMini className={"bg-green-600"}>
+        <Card isCenter={true} className={"bg-green-600"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPhoneAlt} />
           </h2>
           <p>Hubungi orang terdekat kalian</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-green-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-green-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPeopleRoof} />
           </h2>
           <p>Cari tempat yang aman dan jauh dari pelaku</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-green-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-green-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faFaceSmile} />
           </h2>
           <p>Lupakan masalalu dan selalu bersyukur</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-green-600"}>
+        </Card>
+        <Card isCenter={true} className={"bg-green-600"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPeopleArrows} />
           </h2>
           <p>Jaga jarak dari pelaku dan teman dekatnya</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-green-600"}>
+        </Card>
+        <Card isCenter={true} className={"bg-green-600"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPersonPraying} />
           </h2>
           <p>Beribadah dan mendekatkan diri kepada tuhan</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-green-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-green-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faUserShield} />
           </h2>
           <p>Hindari media sosial beberapa hari</p>
-        </ButtonMini>
+        </Card>
       </div>
     </>
   );
@@ -83,30 +83,30 @@ function PenyebabBullying() {
         Penyebab Perundungan
       </h1>
       <div className="grid grid-cols-2 gap-2">
-        <ButtonMini className={"bg-red-500"}>
+        <Card isCenter={true} className={"bg-red-500"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPersonHarassing} />
           </h2>
           <p>Mengalami kdrt (broken home)</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-yellow-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-yellow-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faUserGraduate} />
           </h2>
           <p>Iri terhadap prestasi seseorang</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-yellow-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-yellow-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPersonPraying} />
           </h2>
           <p>Kurangnya hubungan dengan tuhan</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-red-500"}>
+        </Card>
+        <Card isCenter={true} className={"bg-red-500"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPersonRunning} />
           </h2>
           <p>Membully untuk tempat pelarian</p>
-        </ButtonMini>
+        </Card>
       </div>
     </>
   );
@@ -119,30 +119,30 @@ function DampakBullying() {
         Dampak Perundungan
       </h1>
       <div className="grid grid-cols-2 gap-2 pl-3">
-        <ButtonMini className={"bg-red-500"}>
+        <Card isCenter={true} className={"bg-red-500"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faArrowsDownToPeople} />
           </h2>
           <p>Depresi, Bipolar, dan ganggunan kejiawaan lainnnya</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-yellow-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-yellow-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faPersonCircleExclamation} />
           </h2>
           <p>Sulit berinteraksi dengan orang baru</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-yellow-400"}>
+        </Card>
+        <Card isCenter={true} className={"bg-yellow-400"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faUserInjured} />
           </h2>
           <p>Mengalami lebam dan luka fisik lainnya</p>
-        </ButtonMini>
-        <ButtonMini className={"bg-red-500"}>
+        </Card>
+        <Card isCenter={true} className={"bg-red-500"}>
           <h2 className="card-title">
             <FontAwesomeIcon icon={faSkull} />
           </h2>
           <p>Bunuh diri akibat tekanan dari pembully</p>
-        </ButtonMini>
+        </Card>
       </div>
     </>
   );
@@ -227,7 +227,7 @@ export default function Bullying() {
   );
 }
 
-function ButtonMini({ children, className }) {
+function ADdaf({ children, className }) {
   return (
     <div className={`card text-white ${className}`}>
       <div className="card-body items-center text-center">{children}</div>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ImgCenter } from "../components";
+import { Card, ImgCenter } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
@@ -102,9 +102,9 @@ export default function Home() {
 function CardMIni({ children, className, to }) {
   return (
     <Link to={to}>
-      <div className={`card text-white ${className}`}>
-        <div className="card-body items-center text-center">{children}</div>
-      </div>
+      <Card isCenter={true} className={`text-white ${className}`}>
+        { children }
+      </Card>
     </Link>
   );
 }

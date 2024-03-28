@@ -1,5 +1,5 @@
 import { project } from "../assets/data";
-import { Card, Each } from "../components";
+import { Card, Each, ProjectCard } from "../components";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function MyProject() {
@@ -15,7 +15,7 @@ export default function MyProject() {
         <Each
           of={project}
           render={(item, index) => (
-            <Card
+            <ProjectCard
               title={item.name}
               desc={item.description}
               icon={handleIcon(item)}
