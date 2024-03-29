@@ -76,21 +76,26 @@ function ErrorMessage() {
   ];
 
   const agent = header.join(" ");
+  console.log(agent)
   const thisOs = matchItem(agent, os);
   const thisBrowser = matchItem(agent, browser);
+
   return (
-    <div className="my-8 mx-8 text-center">
-      <h1 className="text-2xl font-bold text-center">
-        This application only support for android
-      </h1>
-      <p className="text-xl font-semibold pt-4">
-        Browser: {thisBrowser.name}{" "}
-        {thisBrowser.version != 0 ? `v${thisBrowser.version}` : ""}
-      </p>
-      <p className="text-xl font-semibold">Operating System: {thisOs.name}</p>
-      <p className="text-xl font-semibold">
-        Screen Width: {window.innerWidth}px
-      </p>
+    <div className="flex items-center justify-center">
+      <div className="my-8 mx-8 text-center">
+        <h1 className="text-4xl font-bold text-center">
+          This application only support for mobile device, please change your
+          device
+        </h1>
+        <p className="text-xl font-semibold pt-4">
+          Browser: {thisBrowser.name}{" "}
+          {thisBrowser.version != 0 ? `v${thisBrowser.version}` : ""}
+        </p>
+        <p className="text-xl font-semibold">Operating System: {thisOs.name}</p>
+        <p className="text-xl font-semibold">
+          Screen Width: {window.innerWidth}px
+        </p>
+      </div>
     </div>
   );
 }

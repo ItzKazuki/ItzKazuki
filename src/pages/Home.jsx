@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
-import { Card, ImgCenter } from "../components";
+import { Card, ImgCenter, Layout, Loading } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
-  faFacebook,
   faGithub,
-  faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
