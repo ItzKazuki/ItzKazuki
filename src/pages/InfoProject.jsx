@@ -14,7 +14,7 @@ export default function InfoProject() {
     <div>
       <div id="project-info">
         <h1 className="text-2xl font-bold">
-          About Project <span className="badge badge-accent">v3.3.6.5</span>
+          About Project <span className="badge badge-accent">v3.3.7</span>
         </h1>
         <div className="flex justify-center flex-wrap">
           <div className="card w-96 bg-base-100 shadow-xl">
@@ -85,10 +85,10 @@ export default function InfoProject() {
                   width={"55px"}
                 />
               </div>
-              <div className="tooltip" data-tip="v5.2.6">
+              <div className="tooltip tooltip-bottom" data-tip="v5.2.6">
                 <img src={viteIcon} alt="" className="mt-4" width={"55px"} />
               </div>
-              <div className="tooltip" data-tip="v3.4.1">
+              <div className="tooltip tooltip-bottom" data-tip="v3.4.1">
                 <img
                   src={tailwindIcon}
                   alt=""
@@ -96,7 +96,7 @@ export default function InfoProject() {
                   width={"80px"}
                 />
               </div>
-              <div className="tooltip" data-tip="v4.8.0">
+              <div className="tooltip tooltip-bottom" data-tip="v4.8.0">
                 <img src={daisyuiIcon} alt="" width={"75px"} />
               </div>
             </div>

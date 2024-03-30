@@ -1,4 +1,4 @@
-import project from "./project.json";
+import projects from "./projects.json";
 import perundungan from './perundungan.json';
 
-export { project, perundungan };
+export { projects, perundungan };

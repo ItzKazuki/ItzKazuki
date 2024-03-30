@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Card, ImgCenter, Layout, Loading } from "../components";
+import { Card, ImgCenter } from "../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,

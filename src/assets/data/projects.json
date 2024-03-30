@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Anti Bullying Information",
+    "description": "Edukasi mengenai bullying mulai dari dampak, akibat dan juga cara penanganan bagi korban bullying",
+    "type_project": "Web",
+    "url": "/projects/bullying"
+  },
+  {
+    "name": "XENTWO Landing Page",
+    "description": "Web kelas X RPL 2",
+    "type_project": "Web, Github",
+    "url": "https://exentwo.kazukikun.space",
+    "github_repo": "https://github.com/ItzKazuki/School-web"
+  },
+  {
+    "name": "Arl Craft",
+    "description": "A web for landing page arlcaft server",
+    "deprecated": true,
+    "type_project": "Github",
+    "github_repo": "https://github.com?ItzKazuki/ArlCraft"
+  },
+  {
+    "name": "Encryption using javascript",
+    "description": "Encrypt text to random text",
+    "type_project": "Github",
+    "github_repo": "https://github.com/ItzKazuki/encryption"
+  },
+  {
+    "name": "CRUD Javascript",
+    "description": "CRUD application using javascript + mongodb",
+    "type_project": "Github",
+    "deprecated": true,
+    "github_repo": "https://github.com/ItzKazuki/crud-js"
+  },
+  {
+    "name": "Pterodactyl Panel",
+    "description": "fork pterodactyl/pterodactyl modified version by ItzKazuki",
+    "type_project": "Github",
+    "deprecated": true,
+    "private": true,
+    "github_repo": "https://github.com/ItzKazuki/Pterodactyl"
+  }
+]

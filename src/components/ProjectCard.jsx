@@ -2,16 +2,12 @@ import Card from "./Card";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function ProjectCard({ title, desc, to, icon, isDeprecated }) {
+export default function ProjectCard({ title, desc, to, icon, badge }) {
   return (
     <Card className={"w-96 bg-base-100 shadow-xl my-6"}>
       <h2 className="card-title">
         {title}{" "}
-        {isDeprecated ? (
-          <span className="badge badge-outline">deprecated</span>
-        ) : (
-          ""
-        )}
+        {badge}
       </h2>
       <p>{desc}</p>
       <div className="card-actions justify-end">
