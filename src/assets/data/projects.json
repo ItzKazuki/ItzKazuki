@@ -3,13 +3,13 @@
     "name": "Anti Bullying Information",
     "description": "Edukasi mengenai bullying mulai dari dampak, akibat dan juga cara penanganan bagi korban bullying",
     "type_project": "Web",
-    "url": "/projects/bullying"
+    "url": "http://projects.kazukikun.space/#/projects/bullying"
   },
   {
     "name": "MyMovies",
     "description": "Test public API(themoviedb) untuk melihat dan mencari movie di seluruh dunia",
     "type_project": "Web",
-    "url": "/projects/my-movie"
+    "url": "http://projects.kazukikun.space/#/projects/my-movie"
   },
   {
     "name": "MyChat",
