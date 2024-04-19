@@ -6,6 +6,18 @@
     "url": "/projects/bullying"
   },
   {
+    "name": "MyMovies",
+    "description": "Test public API(themoviedb) untuk melihat dan mencari movie di seluruh dunia",
+    "type_project": "Web",
+    "url": "/projects/my-movie"
+  },
+  {
+    "name": "MyChat",
+    "description": "Applikasi chat sederhana menggunakan React.js + vite sebagai front-end dan laravel 11 sebagai back-end",
+    "type_project": "Github",
+    "github_repo": "https://github.com/ItzKazuki/MyChat"
+  },
+  {
     "name": "XENTWO Landing Page",
     "description": "Web kelas X RPL 2",
     "type_project": "Web, Github",

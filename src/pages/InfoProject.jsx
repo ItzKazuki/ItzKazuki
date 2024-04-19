@@ -14,7 +14,7 @@ export default function InfoProject() {
     <div>
       <div id="project-info">
         <h1 className="text-2xl font-bold">
-          About Project <span className="badge badge-accent">v3.3.7</span>
+          About Project <span className="badge badge-accent">v{import.meta.env.VITE_APP_VER}</span>
         </h1>
         <div className="flex justify-center flex-wrap">
           <div className="card w-96 bg-base-100 shadow-xl">

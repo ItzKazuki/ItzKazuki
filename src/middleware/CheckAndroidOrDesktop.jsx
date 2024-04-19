@@ -76,7 +76,6 @@ function ErrorMessage() {
   ];
 
   const agent = header.join(" ");
-  console.log(agent)
   const thisOs = matchItem(agent, os);
   const thisBrowser = matchItem(agent, browser);
 
