@@ -6,6 +6,19 @@
     "url": "http://projects.kazukikun.space/#/projects/bullying"
   },
   {
+    "name": "ESP32 IoT Project",
+    "description": "Project IoT menggunakan Microcontroller ESP32, dimana mengirimkan data kelembapan tanah dari sensor ke internet.",
+    "type_project": "Github",
+    "github_repo": "https://github.com/ItzKazuki/esp32_project"
+  },
+  {
+    "name": "Ecomerce App",
+    "description": "Applikasi Ecommerce sederhana, fontend menggunakan React.js dan backend menggunakan laravel 11",
+    "type_project": "Web, Github",
+    "url": "http://ecommerce-app.kazukikun.space/",
+    "github_repo": "https://github.com/ItzKazuki/frontend-e-commerce"
+  },
+  {
     "name": "MyMovies",
     "description": "Test public API(themoviedb) untuk melihat dan mencari movie di seluruh dunia",
     "type_project": "Web",

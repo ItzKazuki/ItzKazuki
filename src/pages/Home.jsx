@@ -77,7 +77,7 @@ export default function Home() {
         <ImgCenter
           className={"w-screen mb-4"}
           imgSrc={
-            "https://spotify-github-profile.vercel.app/api/view.svg?uid=31lrsntg6vcn73kuvwibeaatyzoa&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
+            "https://spotify-github-profile.kittinanx.com/api/view.svg?uid=31lrsntg6vcn73kuvwibeaatyzoa&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false"
           }
         />
         <ImgCenter
